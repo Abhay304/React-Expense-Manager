@@ -11,7 +11,7 @@ function TransactionList() {
           <li
             key={transaction.id}
             className={
-              transaction.amount.toString().split("")[0] == "-"
+              transaction.amount.toString().split("")[0] === "-"
                 ? "minus"
                 : "plus"
             }

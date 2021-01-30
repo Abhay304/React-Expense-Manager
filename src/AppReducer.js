@@ -1,5 +1,4 @@
 export default (state, action) => {
-  console.log(state._transactions);
   switch (action.type) {
     case "DELETE_TRANS":
       return {
